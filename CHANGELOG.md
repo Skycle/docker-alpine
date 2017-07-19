@@ -5,6 +5,39 @@ Due to the nature of versioning and the fact this repository houses multiple Doc
 
 Each release records it's own specific changes in a VERSIONS.md file.
 
+## 2017.07.05
+
+- `alpine-consul`: updated consul to `v0.8.5`. Transitioned from beta to full release.
+- `alpine-consul-base`: updated consul-template to `v0.19.0`. Transitioned from beta to full release.
+- `alpine-consul-ui`: transitioned from beta to full release.
+- `alpine-consul-redis`: updated Redis to `v3.2.5`.
+- `alpine-consul-nginx`: transitioned from beta to full release.
+- `alpine-consul-nodejs`: transitioned from beta to full release.
+
+### Releases
+
+- [Release `v3.2.0` of `alpine-consul`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-v3.2.0/alpine-consul)
+- [Release `v4.2.0` of `alpine-consul-base`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-base-v4.2.0/alpine-consul-base)
+- [Release `v2.2.0` of `alpine-consul-ui`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-ui-v2.2.0/alpine-consul-ui)
+- [Release `v2.2.0` of `alpine-consul-redis`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-redis-v2.2.0/alpine-consul-redis)
+- [Release `v3.2.0` of `alpine-consul-nginx`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-nginx-v3.2.0/alpine-consul-nginx)
+- [Release `v5.11.0` of `alpine-consul-nodejs`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-nodejs-v5.11.0/alpine-consul-nodejs)
+
+## 2017.06.14
+
+- `alpine-consul`:
+    - added `util-linux` package for `uuidgen` binary.
+    - `consul-node-id` now uses `uuidgen` for better UUID generation that doesn't clash.
+    - Upgraded Consul to `v0.8.4`.
+
+### Releases
+
+- [Release `v3.2.0-beta.2` of `alpine-consul`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-v3.2.0-beta.2/alpine-consul)
+- [Release `v4.2.0-beta.2` of `alpine-consul-base`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-base-v4.2.0-beta.2/alpine-consul-base)
+- [Release `v2.2.0-beta.2` of `alpine-consul-ui`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-ui-v2.2.0-beta.2/alpine-consul-ui)
+- [Release `v3.2.0-beta.2` of `alpine-consul-nginx`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-nginx-v3.2.0-beta.2/alpine-consul-nginx)
+- [Release `v5.11.0-beta.2` of `alpine-consul-nodejs`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-nodejs-v5.11.0-beta.2/alpine-consul-nodejs)
+
 ## 2017.06.08
 
 - `alpine-consul-base`: updated consul-template configuration file to use a stanza rather than a string.
@@ -15,7 +48,7 @@ Each release records it's own specific changes in a VERSIONS.md file.
 - [Release `v4.2.0-beta.1` of `alpine-consul-base`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-base-v4.2.0-beta.1/alpine-consul-base)
 - [Release `v2.2.0-beta.1` of `alpine-consul-ui`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-ui-v2.2.0-beta.1/alpine-consul-ui)
 - [Release `v5.11.0-beta.1` of `alpine-consul-nodejs`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-nodejs-v5.11.0-beta.1/alpine-consul-nodejs)
-- [Release `v3.2.0-beta.1` of `alpine-consul-nodejs`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-nodejs-v3.2.0-beta.1/alpine-consul-nodejs)
+- [Release `v3.2.0-beta.1` of `alpine-consul-nginx`](https://github.com/smebberson/docker-alpine/tree/alpine-consul-nginx-v3.2.0-beta.1/alpine-consul-nginx)
 
 ## 2017.06.02
 
